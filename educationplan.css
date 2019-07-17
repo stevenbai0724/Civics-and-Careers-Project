@@ -1,0 +1,71 @@
+p{
+	margin-left: 20%;
+	margin-right: 30%;
+	font-family: Calibri;
+	font-size: 15pt;
+}
+
+
+h1{
+	font-family: Calibri;
+	font-size: 30pt;
+	text-align: center;
+
+}	
+
+h2{
+	margin-left: 20%;
+	font-family: Calibri;
+	font-size: 25pt
+}	
+
+h3{
+	margin-left: 20%;
+	font-family: Calibri;
+	font-size: 20pt
+}	
+
+
+img.chart{
+	display: block;
+	margin-left: 20%;
+	margin-right: auto;	
+}
+
+img.plan{
+	display: block;
+	margin-left: 20%;
+	margin-right: auto;	
+}
+
+.back_colour{
+	background-color: #caf7dd
+}
+ul.navigation_bar{
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navigation_bar {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}

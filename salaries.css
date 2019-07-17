@@ -1,0 +1,71 @@
+h1{
+	text-align: center;
+	font-size: 30pt;
+	font-family: Calibri;
+}
+
+p{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 15pt;
+}
+
+a.source{
+	font-family: Calibri;
+	font-size: 15pt;
+}
+.back_colour{
+	background-color:#caf7dd
+	
+}
+p.sub_title{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 25pt;
+}
+img.one{
+	display: block;
+	width : 20%;
+	height: auto;
+}
+
+img.salary_one{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+img.salary_two{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+ul.navigation_bar{
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navigation_bar {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}

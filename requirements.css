@@ -1,0 +1,64 @@
+h1{
+	margin-left:20%;
+	margin-right:30%;
+	font-family: Calibri;
+	font-size: 30pt;
+
+}	
+
+
+p{
+	text-align:left;
+	font-family: Calibri;
+	font-size: 15pt;
+	margin-left:20%;
+	margin-right:30%;
+
+}
+.back_colour{
+	background-color: #caf7dd
+
+}
+
+img.ad2{
+	display: block;
+	margin-left:auto;
+	margin-right: 8%;
+}
+
+img.edu{
+	display: block;
+	margin-left: 20%;
+	margin-right: auto;
+	
+
+}
+ul.navigation_bar{
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navigation_bar {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}	
+
