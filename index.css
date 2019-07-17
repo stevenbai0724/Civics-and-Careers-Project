@@ -1,0 +1,105 @@
+/*Sytle of title */
+h1{
+	text-align: center;
+	font-size: 40pt;
+	font-family: Calibri;
+}
+
+/*Sub titles */
+h2{
+	text-align:center;
+	font-size: 25pt;
+	font-family: Calibri;
+
+}
+
+
+/*Colour of background */
+.back_colour{
+	background-color:#caf7dd
+	
+}
+
+/*Body text */
+p{
+	margin-left: 30px;
+	font-family: Calibri;
+}
+
+/*Big body text */
+p.description{
+	font-size: 20pt;
+	text-align: center;
+	font-family: Calibri;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+
+/*Big picture of person on main page */
+img.people{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1300px;
+	
+}
+
+/*image 1 */
+img.one{
+	display: block;
+	margin-left: 400px;
+	margin-right: auto;
+	float: left;
+}
+
+/*image 2 */
+img.two{
+	display: block;
+	margin-right:400px;
+	margin-left: auto;
+
+}
+
+/*image 3 */
+img.three{
+	display: block;
+	margin-right:auto;
+	margin-left: auto;
+	width: 15%
+}
+
+
+/*Creates buttons for navigation bar */
+ul.navigation_bar{
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*Arrange buttons on left */
+li.navigation_bar {
+  float: left;
+}
+
+/*Style of buttons */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+/*Colour when user hovers over button */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*Colour when user clicks on button  */
+.active {
+  background-color: #4CAF50;
+}
